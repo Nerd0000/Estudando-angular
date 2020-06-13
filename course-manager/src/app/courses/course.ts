@@ -1,3 +1,4 @@
+// Declara o objeto course
 export class Course {
   id: number;
   name: string;
@@ -7,4 +8,5 @@ export class Course {
   duration: number;
   rating: number;
   releaseDate: string;
+  description: string;
 }
